@@ -1,0 +1,23 @@
+# Artifacts
+node_modules/
+dist/
+build/
+.turbo/
+*.pyc
+__pycache__/
+
+# Environments
+.env
+.env.local
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Plugin specific
+*.difypkg
+package_log.txt
