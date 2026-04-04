@@ -4,10 +4,28 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "langchain-suprawall"
-version = "0.1.0"
+version = "0.1.2"
 description = "Official SupraWall security integration for LangChain Python"
 authors = ["SupraWall <hello@suprawall.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/wiserautomation/Supra-Wall-Private"
+homepage = "https://www.supra-wall.com"
+keywords = ["langchain", "security", "guardrails", "EU AI Act", "governance", "agents"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.28.0"
+langchain-core = ">=0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+black = "^22.0.0"
+mypy = "^1.0.0"

@@ -18,9 +18,9 @@ This monorepo serves as the official distribution hub for all SupraWall plugins 
 
 ## 📦 Plugin Directory
 
-### 🚀 Core Platform Integrations
-- **[Dify Plugin](./suprawall-security)**: Explicit security guardrails for Dify Workflows. Detects SQLi, XSS, and Prompt Injection natively within your Dify environment.
-- **[MCP Claude Server](./mcp-plugin)**: Official implementation of the Model Context Protocol (MCP). Enables SupraWall security policies directly within Anthropic Claude Desktop and Claude-powered agents.
+- **[Dify Plugin](./suprawall-security)**: Explicit security guardrails for Dify Workflows.
+- **[MCP Claude Server](./mcp-plugin)**: Official implementation of the Model Context Protocol (MCP).
+- **[AWS Marketplace Integration](#)**: Pre-certified Guardrail tool for AWS Cloud (SaaS & Container).
 - **[OpenClaw Extension](./openclaw)**: Native security middleware for the OpenClaw agent runtime.
 
 ### 🧱 Framework Security Middleware
