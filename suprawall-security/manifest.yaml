@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 0.5.0
 type: plugin
 author: suprawall
 name: suprawall-security
@@ -22,7 +22,7 @@ plugins:
   tools:
     - provider/suprawall.yaml
 meta:
-  version: 0.0.1
+  version: 0.5.0
   arch:
     - amd64
     - arm64
