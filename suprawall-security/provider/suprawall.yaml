@@ -5,7 +5,7 @@ identity:
     en_US: SupraWall Security
   description:
     en_US: Deterministic policy enforcement for AI agents. Detects prompt injection, enforces output policies, and blocks non-compliant agent actions.
-  icon: icon.svg
+  icon: _assets/icon.svg
 tools:
   - tools/scan.yaml
   - tools/enforce.yaml
